@@ -54,4 +54,11 @@ fun main() {
     }else {
         println("false!")
     }
+
+    //COMPARAR Strings
+    val produto1 = "IMAC"
+    val produto2 = "IMAC"
+    //println(produto1 != produto2) FALSE
+    //prinlln(produto1 == produto2) TRUE
+
     }
