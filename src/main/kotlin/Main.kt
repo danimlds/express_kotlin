@@ -61,4 +61,18 @@ fun main() {
     //println(produto1 != produto2) FALSE
     //prinlln(produto1 == produto2) TRUE
 
+    //
+
+    //aceita null (nullable)
+    val produto3: String? = "Imac"
+
+    //val qntCaracteres = produto3?.length
+    //val qntCaracteres = produto3?.length ?: 0
+
+    if(produto3 != null) {
+        val qntCaracteres = produto3?.length
+        println(qntCaracteres)
     }
+}
+
+
