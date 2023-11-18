@@ -1,9 +1,10 @@
 fun main() {
-    //functions
-    soma(10.5, 4.0)
+    //functions com retornos
+    val resp = soma(10.5, 4.0)
+    println(resp)
 }
 
-fun soma(num1: Double, num2: Double) {
-    println(num1 + num2)
+fun soma(num1: Double, num2: Double): Double{
+    return (num1 + num2)
 }
 
